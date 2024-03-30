@@ -130,4 +130,10 @@ plt.legend()
 plt.show()
 
 
-
+# Plot training accuracy
+plt.plot(train_acc_history, label='Training Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.title('Training Accuracy Curve')
+plt.legend()
+plt.show()
