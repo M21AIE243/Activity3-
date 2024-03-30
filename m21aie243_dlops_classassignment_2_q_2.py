@@ -118,3 +118,5 @@ def test_model(model, testloader):
 
     print(f'Top-1 Test Accuracy: {top1_accuracy:.4f}')
     print(f'Top-5 Test Accuracy: {top5_accuracy:.4f}')
+
+    
