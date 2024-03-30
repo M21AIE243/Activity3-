@@ -117,6 +117,7 @@ def test_model(model, testloader):
     top5_accuracy = correct_top5 / total
 
     print(f'Top-1 Test Accuracy: {top1_accuracy:.4f}')
+
     print(f'Top-5 Test Accuracy: {top5_accuracy:.4f}')
 
 import matplotlib.pyplot as plt
@@ -136,3 +137,5 @@ plt.ylabel('Accuracy')
 plt.title('Training Accuracy Curve')
 plt.legend()
 plt.show()
+
+
